@@ -11,7 +11,7 @@ app.set("view engine", "ejs");
 
 
 app.listen(process.env.PORT || puertoExpress, () => {
-    console.log(`Express iniciado OK el el puerto ${puertoExpress}`);
+    console.log(`Servidor corriendo en el puerto ${puertoExpress}`);
 });
 
 app.get("/", (req, res) => {
